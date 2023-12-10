@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&family=Vina+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;   
+    font-family:cursive ;
+}
+/* header */
+.header{
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+    color: rgba(255, 166, 0, 0.808);
+}
+.About{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(24, 12, 12); */
+    display: flex;
+}
+.avatar{
+    width: 80%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.About2{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(0, 255, 21); */
+    margin: 100px 60px;
+}
+.About2 h1{
+   /* background-color: aqua; */
+   margin: 0px 0px 30px 30px ;
+   font-size: 35px;
+   color:black;
+}
+.About2 h2{
+    /* background-color: aqua; */
+    margin: 0px 0px 30px 40px ;
+    font-size: 25px;
+    color: rgb(17, 17, 15);
+ }
+.navbar{
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    font-size: 40px;
+    padding: 10px 70px ;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Vina Sans', sans-serif;
+}
+/* end header */
+/* navbar */
+.nav{
+    width: 50%;
+    height: 100%;
+    /* border-color: green; */
+}
+.nav ul li {
+    float: left;
+    list-style-type: none;
+    margin: 20px 30px;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.3s color;
+}
+.nav ul li a:hover{
+    color: rgb(41, 10, 216);
+}
+/* end navbar */
+.avatar img{
+    width: 50%;
+    height: 80%;
+    margin: 60px 60px;
+    border-radius: 50%;
+
+}
